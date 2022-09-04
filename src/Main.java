@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int startsum = 100; // начальная сумма
+        int startSum = 100; // начальная сумма
         int income = 1100; // сумма пополнения
 
         int bonus = 0; // переменная бонуса
@@ -10,14 +10,14 @@ public class Main {
         if (income > 1000) {
 
             bonus = (income / 100);
-            total = startsum + income + bonus;
+            total = startSum + income + bonus;
 
         } else {
-           total = startsum + income;
+            total = startSum + income;
         }
-            System.out.println("Итоговая сумма" + total);
-            System.out.println("Сумма бонуса" + bonus);
-        }
+        System.out.println("Итоговая сумма" + total);
+        System.out.println("Сумма бонуса" + bonus);
     }
+}
 
 
